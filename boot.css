@@ -1,0 +1,171 @@
+*  {
+    margin: 0;
+    padding: 0;
+    font-family: campton;
+    color: #4c4848;
+}
+
+.container p{
+    padding-bottom: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:95vh;
+    background-color: #7392B7;
+    /* padding: 20rem; */
+}
+
+.container {
+    background-color: #D8E1E9;
+    padding: 3rem;
+    border-radius: 47px;
+    width: 26rem;
+    height:29rem;
+    /* box-shadow: #4c4848; */
+    box-shadow: -6px 7px #263239;
+}
+
+input , select{
+    width: 100%;
+    border:none;
+    border-radius: 7px;
+    background-color:#B3C5D7;
+    /* border:0.5px solid rgba(117, 158, 184, 0.4); */
+}
+
+input {
+    /* height: 2rem; */
+    border-radius: 1rem;
+    width: 96%;
+    padding: 0.3rem;
+    padding-left: 13px;
+}
+
+.container p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+#rate {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    border-radius:23px;
+    font-size: 1.5rem;
+    margin-top: 4.3rem;
+    background-color: #B3C5D7;
+    box-shadow: -4px 4px #263239;
+}
+
+button:hover {
+    background-color: #70798C;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+i {
+    font-size: 2rem;
+    position: relative;
+    top: 2rem;
+    left: -0.8rem;
+}
+
+div > img {
+    max-width:3rem;
+    position: relative;
+    left: -4rem;
+    top: 1rem;
+}
+
+select {
+    margin-bottom: 1rem;
+    position: relative;
+    top: -1rem;
+}
+
+#from select {
+    display: flex;
+    align-items: center;
+    width: 3.5rem;
+    position: relative;
+    left: 3.8rem;
+    top: -35px;
+}
+#from img {
+    display: flex;
+    align-items: center;
+    width: 3.5rem;
+    position: relative;
+    left: 0.4rem;
+    top: -1px;
+}
+
+#from {
+    /* background-color: red; */
+    margin: 6px 0px 0px 0px;
+    border: 1px solid #263239;
+    width: 8rem;
+    left: -4rem;
+    height: 3rem;
+    position: relative;
+    top: 1rem;
+    border-radius: 10px;
+}
+.to select {
+    display: flex;
+    align-items: center;
+    width: 3.5rem;
+    position: relative;
+    left: -1rem;
+    top: -21px;
+}
+
+.to {
+    /* background-color: red; */
+    margin: 6px 0px 0px 0px;
+    border: 1px solid #263239;
+    width: 8rem;
+    height: 3rem;
+    position: relative;
+    top: 1rem;
+    border-radius: 10px;
+}
+
+.to select {
+    display: flex;
+    align-items: center;
+    width: 3.5rem;
+    position: relative;
+    left: 3.8rem;
+    top: -35px;
+}
+.to img {
+    display: flex;
+    align-items: center;
+    width: 3.5rem;
+    position: relative;
+    left: 0.4rem;
+    top: -1px;
+}
+
+#to {
+    position: relative;
+    left: 2.3rem;
+}
+
+
+
+
